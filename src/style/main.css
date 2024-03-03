@@ -572,6 +572,14 @@ html {
   right: 0px;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -580,16 +588,6 @@ html {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-36 {
-  margin-top: 9rem;
-  margin-bottom: 9rem;
-}
-
-.my-96 {
-  margin-top: 24rem;
-  margin-bottom: 24rem;
 }
 
 .mr-10 {
@@ -602,6 +600,10 @@ html {
 
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .mt-24 {
@@ -626,6 +628,14 @@ html {
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .block {
@@ -654,6 +664,10 @@ html {
 
 .h-\[380px\] {
   height: 380px;
+}
+
+.h-\[401px\] {
+  height: 401px;
 }
 
 .h-\[450px\] {
@@ -700,8 +714,8 @@ html {
   width: 516px;
 }
 
-.w-\[531px\] {
-  width: 531px;
+.w-\[626px\] {
+  width: 626px;
 }
 
 .w-\[794px\] {
@@ -761,6 +775,11 @@ html {
        column-gap: 2.5rem;
 }
 
+.gap-x-16 {
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -774,6 +793,10 @@ html {
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
 }
 
 .gap-y-6 {
@@ -819,14 +842,14 @@ html {
   background-color: rgb(77 119 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
-}
-
 .px-11 {
   padding-left: 2.75rem;
   padding-right: 2.75rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-5 {
@@ -859,15 +882,6 @@ html {
   padding-bottom: 1rem;
 }
 
-.py-40 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.pl-14 {
-  padding-left: 3.5rem;
-}
-
 .pl-0 {
   padding-left: 0px;
 }
@@ -886,12 +900,13 @@ html {
   line-height: 2.25rem;
 }
 
-.text-\[32px\] {
-  font-size: 32px;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-\[54px\] {
-  font-size: 54px;
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .text-base {
@@ -907,6 +922,11 @@ html {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -952,13 +972,29 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .lg\:relative {
-    position: relative;
+  .lg\:order-1 {
+    order: 1;
+  }
+
+  .lg\:order-2 {
+    order: 2;
   }
 
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-44 {
+    margin-top: 11rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
@@ -969,8 +1005,12 @@ html {
     display: none;
   }
 
-  .lg\:w-\[531px\] {
-    width: 531px;
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:flex-row {
@@ -984,5 +1024,13 @@ html {
 
   .lg\:pl-14 {
     padding-left: 3.5rem;
+  }
+
+  .lg\:text-\[54px\] {
+    font-size: 54px;
+  }
+
+  .lg\:text-\[32px\] {
+    font-size: 32px;
   }
 }

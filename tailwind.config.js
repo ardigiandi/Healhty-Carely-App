@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors : {
-        birumuda : '#4D77FF'
+        birumuda : '#4D77FF',
+        ungumuda : '#EDF1FF'
       }
     },
   },
